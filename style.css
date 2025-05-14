@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+}
+body {
+   
+    background: black; 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 450px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    background: linear-gradient(120deg, #8bb0ff 0%, #3acbf0 100%);
+    padding: 24px;
+    color: #fafafa;
+    text-align: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.form{
+    padding: 10px;
+}
+
+.campo{
+    margin-bottom: 8px;
+    padding: 0px;
+    position: relative;
+}
+
+.form label{
+    display: inline block;
+    margin-bottom: 4px;
+}
+.form input{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 6px;
+    border: 2px solid #dfdfdf
+    
+}
+
+.genero{
+    padding: 4px;    
+    cursor: pointer;
+}
+
+
+.form button{
+    background-color: #3acbf0 ;
+    display: block;
+    width: 35%;
+    padding: 3px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+
+.campo select{
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid #dfdfdf
+}
+
+.campo textarea{
+    border: 2px solid #dfdfdf
+    
+}
+
+.mensagem textarea{
+    margin-top: -8px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #dfdfdf
+}

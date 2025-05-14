@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <section class="titulo">
+            <h1><strong>FORMULÁRIO DE INSCRIÇÃO</strong></h1>
+        </section>
+            
+            <form id="form" class="form">
+                <div class="campo">
+                    <label for="Nome">Nome completo:</label>
+                    <input required id="Nome" type="text" />
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="Email">Email:</label>
+                    <input required id="Email" type="email" />
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="Tel">Telefone:</label>
+                    <input required id="Tel" type="tel" />
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="DataNasc">Data de nascimento:</label>
+                    <input required id="DataNasc" type="date" />
+                </div>
+                <br>
+                <div class="genero">
+                    <label>Gênero:</label>
+                    <input required id="M" name="G" type="radio" />
+                    <label for="M">Masculino</label>
+                    <input required id="F" name="G" value="F" type="radio" />
+                    <label for="F">Feminino</label>
+                </div>
+                <br>
+                <div class="campo">
+                    <label for="tipo_inscricao">Tipo de Inscrição:</label>
+                    <select id="tipo_inscricao" name="tipo_inscricao" required>
+                        <option value="palestrante">Palestrante</option>
+                        <option value="participante">Participante</option>
+                        <option value="voluntario">Voluntário</option>
+                    </select>
+                </div>
+                <br>
+                <div class="mensagem">
+                    <label for="Mensagem">Mensagem:</label><br />
+                    <br>
+                    <textarea name="Mensagem" id="Mensagem" rows="4" cols="50" maxlength="200"></textarea>
+                </div>
+                <br>
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    
+</body>
+</html>
